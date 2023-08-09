@@ -12,9 +12,9 @@ _Atri Change Text_ can change not only text, but also character names and the na
 2. Use the _FreeMoteToolkit_ program and turn files with the extension _.scn_ into _.json_.
 3. Transfer the created files to the _files_ folder.
 4. Go to the _script.js_ file and look at the 'switch' construct: it is needed to change character names. After the word 'case' comes the original name of the character, and below it is the changed version (originally in Russian). Edit the names below each 'case' so that they are translated into your language.
-5. Write the _node script_ command in the command line (having previously specified the path to the _ATRI - Change Language Text_ folder).
-6. Transfer the changed files back to _FreeMoteToolkit_ and repackage into _.scn_ - you will get many files with the word 'pure' in the name.
-7. Move the files with the _.scn_ extension to the _rename_files_ folder and enter the _node script_ command again - the word "pure" will disappear from the file names.
+5. Write the _node script_ command in the command line (having previously specified the path to the _ATRI – Change Language Text_ folder).
+6. Transfer the changed files back to _FreeMoteToolkit_ and repackage into _.scn_ – you will get many files with the word 'pure' in the name.
+7. Move the files with the _.scn_ extension to the _rename_files_ folder and enter the _node script_ command again – the word "pure" will disappear from the file names.
 
 > Для работы с программой нужно обязательно иметь установленный на компьютере _Node.js_!
 
