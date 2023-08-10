@@ -4,7 +4,7 @@ const path = require("path");
 const files = fs.readdirSync(path.join(__dirname, "files"));
 
 files.forEach(el => {
-    let file = JSON.parse(fs.readFileSync(path.join(__dirname, "files", el)).toString());
+    const file = JSON.parse(fs.readFileSync(path.join(__dirname, "files", el)).toString());
 
     for (let i = 0; i < file.scenes[0].texts.length; i++) {
         if (el == "b201.ks.json" && i == 115) {
@@ -63,6 +63,9 @@ files.forEach(el => {
                     break;
                 case "Ryuuji's Voice":
                     file.scenes[0].texts[i][2][0][0] = "Голос Рюдзи";
+                    break;
+                case "Natsuki's Wife":
+                    file.scenes[0].texts[i][2][0][0] = "Жена Нацуки";
                     break;
             }
 
@@ -139,6 +142,24 @@ files.forEach(el => {
                 case "宅配業者":
                     file.scenes[0].texts[i][1] = "Водитель";
                     break;
+                case "町の人Ａ":
+                    file.scenes[0].texts[i][1] = "Горожанин 1";
+                    break;
+                case "町の人Ｂ":
+                    file.scenes[0].texts[i][1] = "Горожанин 2";
+                    break;
+                case "ラジオ":
+                    file.scenes[0].texts[i][1] = "Ведущий";
+                    break;
+                case "打ち上げ中継":
+                    file.scenes[0].texts[i][1] = "Объявление";
+                    break;
+                case "ココロ":
+                    file.scenes[0].texts[i][1] = "Кокоро";
+                    break;
+                case "テレビ":
+                    file.scenes[0].texts[i][1] = "Ведущий";
+                    break;
             }
 
             file.scenes[0].texts[i][2][1] = file.scenes[0].texts[i][2][0];
@@ -151,5 +172,5 @@ files.forEach(el => {
 const renameFiles = fs.readdirSync(path.join(__dirname, "rename_files"));
 
 renameFiles.forEach(el => {
-    fs.renameSync(path.join(__dirname, "rename_files", el), path.join(__dirname, "rename_files", el.replace("pure.", "")))
+    fs.renameSync(path.join(__dirname, "rename_files", el), path.join(__dirname, "rename_files", el.replace("pure.", "")));
 });
