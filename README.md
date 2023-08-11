@@ -4,7 +4,6 @@ A tool created to insert text into the game _ATRI: My Dear Moments_ instead of E
 Инструмент, созданный для того, чтобы вставить текст в игру _ATRI: My Dear Moments_ вместо английского языка. Дело в том, что при создании таблицы в [_VNTextPatch_](https://github.com/arcusmaximus/VNTranslationTools/tree/main) происходит замена именно японского языка, что создаёт некоторые трудности: на Steam-версии неправильно работают переносы текста, поскольку предполагается, что в японском письме они и не нужны. Английский же текст осуществляет переносы правильно, поэтому для корректной работы игры требуется заменять именно его.
 
 # Usage
-## All the necessary steps
 > It is mandatory to have [_Node.js_](https://nodejs.org/ru) installed on your computer to work with the program!
 
 _Atri Change Text_ can change not only text, but also character names and the names of files obtained after working in _FreeMoteToolkit_. To use the application, follow these instructions:
