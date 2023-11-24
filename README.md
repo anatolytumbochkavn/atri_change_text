@@ -16,7 +16,7 @@ _Atri Change Text_ can change not only text, but also character names and the na
 7. Transfer the changed files back to [_FreeMoteToolkit_](https://github.com/UlyssesWu/FreeMote) and repackage into _.scn_ – you will get many files with the word 'pure' in the name.
 8. Move the files with the _.scn_ extension to the _rename_files_ folder and enter the _node script_ command again – the word 'pure' will disappear from the file names.
 
-> Для работы с программой нужно обязательно иметь установленный на компьютере [_Node.js_](https://nodejs.org/ru)!
+> Для работы с программой обязательно иметь установленный на компьютере [_Node.js_](https://nodejs.org/ru)!
 
 _Atri Change Text_ может менять не только текст, но и имена персонажей, а также имена полученных после работы в [_FreeMoteToolkit_](https://github.com/UlyssesWu/FreeMote) файлов. Для того чтобы использовать приложение, следуйте этим указаниям:
 1. Переведите новеллу в [_VNTextPatch_](https://github.com/arcusmaximus/VNTranslationTools/tree/main) и получите файлы с изменённым японским текстом на ваш язык.
